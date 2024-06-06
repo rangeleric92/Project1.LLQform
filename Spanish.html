@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+	<title>LLQ: SP Consent</title>
+	<link rel="stylesheet" type="text/css" href="Spanish.css">
+</head>
+
+<img src="https://www.latinolinq.org/static/media/Latino%20LinQ%20Logo%20Color.7c63e5fd.png" width="100" height="100">
+
+<body>
+
+	<h1>Consentimiento para la Prueba del VIH</h1>
+
+		<p>Al firmar esta forma, usted esta de acuerdo con lo siguiente</p>
+		<ul>
+			<li>Yo doy permiso para que se colecte una muestra para haver las prueba de deteccion del VIH (Virus de Inmunodeficiencia Humano) y determinar si ha sido expuestx a infeccion por el VIH<b>(La prueba se realizará con la prueba de anticuerpos INSTI VIH-1/VIH2.)</b>.</li>
+			<br>
+			<li>He recibido informacion sobre el VIH y la relacion con el SIDA (Sindrome de Inmunodeficiencia Adquirida).</li>
+			<br>
+			<li>La prueba va a ser identificada a traves de un numero que me han asignado.</li>
+			<br>
+			<li>Entiendo que la informacion es estrictamente confidencial y es reportada al Departemento de Salud de Georgia y para mantener los expedientes y darle sguimiento si es necesario.</li>
+		</ul>
+</body>
+
+<hr>
+
+<body>
+		<p><em><strong>Favor de completar esta seccion en su totalidad</strong></em></p> <br>
+
+        <!-- Use Get, not Post -->
+
+		<form method="Get">
+			<strong>Datos Demograficos</strong><br><br>
+
+			<strong>Raza/Etnia</strong><br>
+			<input type="radio" name="Raza/Etnia" value="White, Not Hispanic">Blanx<br>
+			<input type="radio" name="Raza/Etnia" value="Black, Not Hispanic">Negrx<br>
+			<input type="radio" name="Raza/Etnia" value="Hispanic or Latinx">Hispanx or Latinx<br>
+			<input type="radio" name="Raza/Etnia" value="Asian/Pacific Islander">Asiatico e islenos del Pacifio<br>
+			<input type="radio" name="Raza/Etnia" value="American Indian/Alaska Native">Americano Native o Nativo de Alaska<br>
+			<input type="radio" name="Raza/Etnia" value="Other">Otro<br><br>
+
+			<strong>Sexo asignado al nacer:</strong><br>
+			<input type="radio" name="Sexo asignado al nacer" value="Male">Masculino<br>
+			<input type="radio" name="Sexo asignado al nacer" value="female">Femenino<br><br>
+
+
+			<Strong>Identidad de Genero:</Strong><br>
+			<input type="radio" name="Identidad de Genero" value="Male">Hombre<br>
+			<input type="radio" name="Identidad de Genero" value="Female">Mujer<br>
+			<input type="radio" name="Identidad de Genero" value="Transgender female">Mujer Transgenero<br>
+			<input type="radio" name="Identidad de Genero" value="Transgender Male">Hombre Transgenero<br>
+			<input type="radio" name="Identidad de Genero" Value="Non-Binary">No Binarie<br>
+			<input type="radio" name="Identidad de Genero" value="Other">Otro<br><br>
+
+			<strong>Sus Datos:</strong><br>
+		
+			Nombre: <input type="text" name="name"><br><br>
+			Fecha de nacimiento: <input type="date" name="birthdaty"><br><br>
+			Domicilio: <input type="text" name="Address"><br><br>
+			Ciudad: <Input type="text" name="city"><br><br>
+			Estado:
+			<select name="states">
+				<option value="Georgia">GA: Georgia</option>
+				<option value="Tennessee">TN: Tennessee</option>
+				<option value="Alabama">AL: Alabama</option>
+			</select><br><br>
+			Código postal: <input type="text" name="zip"><br><br>
+			Condado: <input type="text" name="county"><br><br>
+			Número Celular #: <input type="text" name="cellphone#"><br><br>
+			Otro numero de celular #: <input type="text" name="othercellphone#"><br><br>
+			Fecha en que se realizó la prueba:<input type="date" name="dateoftest"><br><br>
+			Firma electronica: <input type="text" required><br><br>
+			
+
+			<input type="submit" value="Submit Consent!"><br><br>
+			<input type="reset"><br><br><br>
+
+			<a href="landing.html">Home</a>
+		</form>
+</body>
+</html>

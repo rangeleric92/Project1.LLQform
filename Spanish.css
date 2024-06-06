@@ -1,0 +1,35 @@
+/*Selector{
+	Property: value;
+}*/
+html{
+    background-image: linear-gradient(to right, white, rgb(198, 72, 223));
+}
+
+h1 {
+	color: green;
+	border: 5px sold greenyellow;
+}
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal
+}
+
+b {
+	color: #AA4139;
+}
+
+Strong {
+	Color: blue;
+}
+
+body {
+	text-align: center;
+	
+}
+
+li {
+	list-style: none;
+}
